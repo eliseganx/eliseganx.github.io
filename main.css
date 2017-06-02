@@ -9,6 +9,10 @@ h1 {
   font-weight: bold;
 }
 
+li {
+  display: inline-block;
+}
+
 img {
   display: block;
   margin: auto;
