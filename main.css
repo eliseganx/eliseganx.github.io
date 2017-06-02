@@ -1,6 +1,7 @@
 html, body {
   background-color: #D5F5E3;
-  font-family: "Verdana";
+  font-family: "Helvetica";
+  text-align: center;
 }
 
 h1 {
@@ -8,6 +9,16 @@ h1 {
   font-weight: bold;
 }
 
-.center {
+.list {
   text-align: center;
+  font-size: 18px;
+}
+
+.list > ul {
+  display: inline-block;
+}
+
+img {
+  display: block;
+  margin: auto;
 }
