@@ -9,11 +9,10 @@ h1 {
   font-weight: bold;
 }
 
-ul {
-  }
-  ul li {
-    display: inline-block;
-  }
+.list {
+  text-align: center;
+  list-style-position: inside;
+}
 
 img {
   display: block;
