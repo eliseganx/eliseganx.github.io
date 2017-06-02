@@ -11,7 +11,10 @@ h1 {
 
 .list {
   text-align: center;
-  list-style-position: inside;
+}
+
+.list > ul {
+  display: inline-block;
 }
 
 img {
