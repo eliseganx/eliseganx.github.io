@@ -1,0 +1,13 @@
+html, body {
+  background-color: #D5F5E3;
+  font-family: "Verdana";
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
