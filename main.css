@@ -14,7 +14,7 @@ h2 {
 }
 
 .list {
-  display: table;
+  float: left;
   font-size: 18px;
 }
 
