@@ -14,13 +14,24 @@ h2 {
 }
 
 .list {
-  width: 600px;
+  width: 300px;
   margin: 0 auto;
   text-align: left;
   font-size: 18px;
 }
 
 .list > ul {
+  display: inline-block;
+}
+
+.long_list {
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 18px;
+}
+
+.long_list > ul {
   display: inline-block;
 }
     
