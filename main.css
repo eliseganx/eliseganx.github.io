@@ -9,15 +9,14 @@ h1 {
   font-weight: bold;
 }
 
-.list {
-  text-align: center;
-  font-size: 18px;
-}
-
-.list > ul {
+ul {
   display: inline-block;
-}
-
+  }
+  li {
+    text-align: center;
+    font-size: 18px;
+  }
+    
 img {
   display: block;
   margin: auto;
