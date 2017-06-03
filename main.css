@@ -9,13 +9,14 @@ h1 {
   font-weight: bold;
 }
 
-ul {
+.list {
+  text-align: center;
+  font-size: 18px;
+}
+
+.list > ul {
   display: inline-block;
-  }
-  li {
-    text-align: center;
-    font-size: 18px;
-  }
+}
     
 img {
   display: block;
