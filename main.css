@@ -1,19 +1,24 @@
 html, body {
   font-family: "Helvetica";
   text-align: center;
+  padding: 0;
+  margin:0;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 3vw;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.5vw;
+  font-weight: none;
 }
 
 p {
   font-size: 16px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 ul li {
@@ -21,6 +26,7 @@ ul li {
   font-size: 16px;
 }
 
+/*style for top navigation bar*/
 #navbar {
   list-style-type: none;
   margin: 0;
@@ -33,10 +39,11 @@ ul li {
 }
 
 #navbar li a {
+  font-size: 1.3vw;
   display: block;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1vw 1vw;
   text-decoration: none;
 }
 
@@ -48,10 +55,11 @@ ul li {
   text-decoration: underline;
 }
 
+/*style of picture on homepage*/
 #homepic {
   float: left;
-  width: 30%;
-  height: 30%;
+  max-width: 30%;
+  max-height: 30%;
   margin: 20px 0 0 20%;
 }
 
@@ -75,3 +83,38 @@ ul li {
   width: 30%;
   height: 30%;
 }
+
+/*style for contact me nav bar at the bottom*/
+#botnavbar {
+  list-style-type: none;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+#botnavbar li {
+  float: left;
+}
+
+#botnavbar li a {
+  font-size: 1.3vw;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 1vw 1vw;
+  text-decoration: none;
+}
+
+#botnavbar li a:hover {
+  text-decoration: underline;
+}
+
+/*specific style for experience page*/
+#section {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*making the web page responsive*/
+
