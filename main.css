@@ -2,7 +2,7 @@ html, body {
   font-family: "Helvetica";
   text-align: center;
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 
 /*style for top navigation bar*/
@@ -43,7 +43,8 @@ html, body {
 }
 
 #pagetitle { /*used on all pages*/
-  margin: 20px 20px 0 0;
+  margin-right: 15%;
+  margin-left: 15%;
   font-size: 3vw;
 }
 
@@ -54,10 +55,6 @@ html, body {
 
 /**start of bio.html css*/
 
-.topimages {
-
-}
-
 #cheer {
   max-width: 30%;
   max-height: 30%;
@@ -65,14 +62,14 @@ html, body {
   margin-bottom: 1%;
 }
 
-#cat{
+#cat {
   max-width: 30%;
   max-height: 30%;
   margin-right: 10%;
   margin-bottom: 1%;
 }
 
-#biotext{
+#biotext {
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -80,9 +77,9 @@ html, body {
 }
 
 #handstand, 
-#family,
 #pride,
 #football,
+#family,
 #ropes, 
 #seattle {
   max-width: 30%;
@@ -127,7 +124,42 @@ html, body {
   margin-left: 15%;
   margin-right: 10%;
   font-size: 1.5vw;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: bold;
 }
 
-/*making the web page responsive*/
+#workinfo {
+  text-align: left;
+  font-style: italic;
+  font-size: 1.3vw;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 0;
+}
+
+#workyear {
+  margin-right: 10%;
+  font-size: 1.3vw;
+  font-weight: normal;
+  font-style: normal;
+  float: right;
+}
+
+#workdescription {
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 18%;
+  font-size: 1.3vw;
+  
+}
+
+#resume { /* also on skilss pagee */
+  font-size: 1.3vw;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+
+/*specific style */
 
